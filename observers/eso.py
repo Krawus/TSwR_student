@@ -14,7 +14,6 @@ class ESO:
 
     def set_B(self, B):
         self.B = B
-
     
     def update(self, q, u):
         self.states.append(copy(self.state))
